@@ -13,5 +13,10 @@ Some dependencies may require to install very well supported librairies on Linux
 To run the simulator parameterized with a dummy *scenario* (plain Ruby hash) type :
 
 ```
-./bin/simrob tests/test_0.sno
+./bin/simrob tests/scenario_0.sno
+```
+Each Robot has an attached VM/ISS/Processor that can be booted with :
+
+```
+./bin/simrob tests/scenario_0.sno --boot_vms
 ```

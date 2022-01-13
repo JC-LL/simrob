@@ -13,10 +13,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:    0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
       },
       {
         name:   "rob2",
@@ -29,10 +33,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:    0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
       },
       {
         name:   "rob3",
@@ -45,10 +53,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:        0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
 
       },
       {
@@ -62,10 +74,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:        0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
       },
       {
         name:   "rob5",
@@ -78,10 +94,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:        0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
       },
       {
         name:   "rob6",
@@ -94,10 +114,14 @@ scenario={
 
         # memory zone shared between simulator and VM
         base_shared_mem: 0x0,
-        offset_x:        0x0,
-        offset_y:        0x1,
-        offset_speed:        0x2,
-        offset_angle:    0x3,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
       },
   ]
 }
