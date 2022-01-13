@@ -1,0 +1,103 @@
+scenario={
+  name:   "test",
+  field_dims:  [800,600],
+  robots: [
+      {
+        name:   "rob1",
+        color:  "blue",
+        pos:    [0,0],
+        speed:  3,
+        angle: 10,
+        code: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob1.bin",
+        data: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob1.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:    0x2,
+        offset_angle:    0x3,
+      },
+      {
+        name:   "rob2",
+        color:  "red",
+        pos:    [100,100],
+        speed:  1,
+        angle: 45,
+        code: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob2.bin",
+        data: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob2.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:    0x2,
+        offset_angle:    0x3,
+      },
+      {
+        name:   "rob3",
+        color:  "green",
+        pos:    [200,200],
+        speed:  1.2,
+        angle:  90,
+        code:  "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob3.bin",
+        data:  "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob3.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:        0x2,
+        offset_angle:    0x3,
+
+      },
+      {
+        name:   "rob4",
+        color:  "green",
+        pos:    [0,0],
+        speed:  2,
+        angle: 12,
+        code: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob4.bin",
+        data: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob4.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:        0x2,
+        offset_angle:    0x3,
+      },
+      {
+        name:   "rob5",
+        color:  "yellow",
+        pos:    [100,100],
+        speed:  5,
+        angle: 40,
+        code: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob5.bin",
+        data: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob5.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:        0x2,
+        offset_angle:    0x3,
+      },
+      {
+        name:   "rob6",
+        color:  "white",
+        pos:    [200,200],
+        speed:  3.1,
+        angle:  91,
+        code:  "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob6.bin",
+        data:  "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob6.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        offset_x:        0x0,
+        offset_y:        0x1,
+        offset_speed:        0x2,
+        offset_angle:    0x3,
+      },
+  ]
+}

@@ -1,0 +1,5 @@
+require_relative "simrob/version"
+require_relative "simrob/runner"
+require_relative "simrob/simulator"
+require_relative "simrob/robot"
+require_relative "simrob/vm"

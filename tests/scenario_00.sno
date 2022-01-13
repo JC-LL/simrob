@@ -1,0 +1,26 @@
+scenario={
+  name:   "test",
+  field_dims:  [800,600],
+  robots: [
+      {
+        name:   "rob1",
+        color:  "blue",
+        pos:    [0,0],
+        speed:  3,
+        angle: 10,
+        code: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob1.bin",
+        data: "/home/jcll/JCLL/dev/SOFTWARE/simrob/tests/rob1.dat",
+
+        # memory zone shared between simulator and VM
+        base_shared_mem: 0x0,
+        # ----sensors
+        offset_sensor_x:        0x0,
+        offset_sensor_y:        0x1,
+        offset_sensor_speed:    0x2,
+        offset_sensor_angle:    0x3,
+        # ----actuators
+        offset_actuor_speed:    0x4,
+        offset_actuor_angle:    0x5,
+      }
+  ]
+}
